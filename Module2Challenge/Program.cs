@@ -6,7 +6,7 @@
 
 // Variables
 Console.WriteLine("Enter number of miles driven: "); // Prompting for user input
-double milesDriven = Convert.ToDouble(Console.ReadLine()); // converting to a double
+double milesDriven = Convert.ToDouble(Console.ReadLine()); // converting string input to double
 
 // repeat for second prompt - gallons used
 Console.WriteLine("Enter number of gallons used: ");
