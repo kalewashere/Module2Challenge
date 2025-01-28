@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 // MPG Calculator
 // Ask for user input: prompt for number of miles driven; 
@@ -21,4 +20,4 @@ string convertedMPG = $"The total MPG per trip indicated is {mpg:0.00} mpg."; //
 // ended with string method above, using the mpg variable to set decimal format issue (initially was printing up to 9 digits due to variable type - which can be helpful, 
 // but in this instance it is unecesarry to have that many)
 // Output once input is entered, and program does math
-Console.WriteLine(convertedMPG);
+Console.WriteLine(convertedMPG); // print statement message containing converted mpg in string format
